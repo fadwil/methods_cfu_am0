@@ -85,3 +85,15 @@ puts new_number.to_f
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+# The max method is called on the menu_item_prices array
+# The max method passes an argument on the array to return the maximum-valued element from the menu_item_prices array
+# The puts command prints the return value of the max method (20) as that is the maximum integer in this array
+menu_item_prices = [6, 8, 12, 15, 20]
+puts menu_item_prices.max
+
+# The reverse method is called on the ticket_prices array
+# The reverse method passes an argument on the array to reverse the original order of the array
+# The puts command prints the return value of the array which will be a new array in reverse order of the original
+ticket_prices = [25, 50, 75, 150]
+puts ticket_prices.reverse
