@@ -33,10 +33,18 @@ puts custom_greeting("Frank")
 # Answer: The argument data type was a string
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
+def greet_person(first, middle, last)
+    return "Hello, your goverment name is #{first} #{middle} #{last}."
+end
+
+puts greet_person("Wil", "Ryan", "Fady")
 
 # What is the return value of your method?
+# Answer: The return value is a greeting containing all 3 names based on arguments passed on the method.
 # How many arguments did you pass your method?
+# Answer: I passed three arguments on the method.
 # What data type was your argument(s)?
+# Answer: The arguments were all strings.
 
 
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
