@@ -5,9 +5,16 @@
 
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
+def greet_your_friend(name)
+    return "Sup #{name}!"
+end
+
+puts greet_your_friend("Frank")
 
 # What is the return value of your method?
+# Answer: The return value is the string placed in the argument for the method
 # How many arguments did you pass your method?
+# Answer: I passed one argument in this method
 
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
