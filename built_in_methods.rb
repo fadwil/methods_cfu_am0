@@ -49,7 +49,17 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+# The length method is called on the first_name variable, which stores the string object "Wil"
+# The length method returns the count of characters in the string object assigned to the variable first_name
+# the puts command prints the return value of the length method (3) which is the number of characters in the string object "Wil"
+first_name = "Wil"
+puts first_name.length
 
+# The include method is called on the town_name variable which stores the string object "Gainesville"
+# The include method passes an argument on the variable town_name to see if "nesv" is included in the string object "Gainesville"
+# The puts command prints the return value of the include method (true) as nesv is inluded in the string object "Gainesville"
+town_name = "Gainesville"
+puts town_name.include?("nesv")
 
 # SECTION 3: Calling methods on variables assigned to integers.
 # Declare 2 variables assigned to integer objects.
