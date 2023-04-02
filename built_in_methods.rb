@@ -67,6 +67,17 @@ puts town_name.include?("nesv")
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+# The odd method is called on the number variable which stores the integer 12
+# The odd method passes an argument on the variable number to see if the integer stored is odd
+# The puts command prints the return value of the odd method (false) as the integer 12 is even.
+number = 12
+puts number.odd?
+
+# The to_f method is called on the new_number variable which stores the integer 36
+# The to_f method passes an arument on the new_number variable to convert to a float.
+# The puts command prints the return value of the to_f method (36.0) to show the integer stored in the variable converted to a float.
+new_number = 36
+puts new_number.to_f
 
 
 # SECTION 4: Calling methods on variables assigned to arrays.
