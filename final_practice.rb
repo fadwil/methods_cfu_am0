@@ -5,24 +5,32 @@
 
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
-def greet_your_friend(name)
-    return "Sup #{name}!"
+def greet_your_friends
+    return "Sup y'all!"
 end
 
-puts greet_your_friend("Frank")
+puts greet_your_friends
 
 # What is the return value of your method?
-# Answer: The return value is the string placed in the argument for the method
+# Answer: The return value is the string assigned to the method 
 # How many arguments did you pass your method?
 # Answer: I passed one argument in this method
 
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
 
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+def custom_greeting(name)
+    return "Yoooo #{name}!"
+end
 
+puts custom_greeting("Frank")
+
+# What is the return value of your method?
+# Answer: The return value is a phrase that includes a name based on the argument passed on the method.
+# How many arguments did you pass your method?
+# Answer: One argument passed on the method
+# What data type was your argument(s)?
+# Answer: The argument data type was a string
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 
