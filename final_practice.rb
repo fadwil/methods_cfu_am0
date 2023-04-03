@@ -50,10 +50,19 @@ puts greet_person("Wil", "Ryan", "Fady")
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
 
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+def square(n)
+    return n**2
+end
 
+puts "The square of this number is #{square(4)}"
+
+
+# What is the return value of your method?
+# Answer: The return value is a the square of an integer (n)
+# How many arguments did you pass your method?
+# Answer: I passed one argument on the method.
+# What data type was your argument(s)?
+# Answer: The argument was an integer
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
