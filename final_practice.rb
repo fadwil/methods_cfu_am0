@@ -67,6 +67,16 @@ puts "The square of this number is #{square(4)}"
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
 
+def check_stock(quantity)
+    if quantity == 4
+    return "Coffee is stocked"
+    else
+    end
+end
+
+puts check_stock(4)
+
+
 check_stock(4, "Coffee");
 # => "Coffee is stocked"
 
